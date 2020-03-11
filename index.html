@@ -3,14 +3,14 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width" />
- <title>Phobos fusion</title>
+ <title>Phoboy Fuser</title>
  <link rel="stylesheet" href="style.css" />
 </head>
 <body style = "text-align:center;">
 
- <h1>Phobos Fusion</h1>
+ <h1>Phobos Fusion Generator</h1>
 
- <p id = "phob_UP" style =
+ <p id = "fuser_subtitle" style =
  "font-size: 15px; font-weight: bold;">
  </p>
 
@@ -21,49 +21,6 @@
  <p id = "phob_DOWN" style =
  "font-size: 24px; font-weight: bold; color: green;">
  </p>
-   <script>
-      var up = document.getElementById('phob_UP');
-
-var down = document.getElementById('phob_DOWN');
-
-var phob_arr = [
- 'Katie (Katiemonz)\'s Phobos',
- 'GZ (GZ-Missfit)\'s Phobos',
- 'Puff (dragonpuff17)\'s Phobos',
- 'Jade (pure_trashcan)\'s Phobos',
- 'Finch (finchart)\'s Phobos',
- 'Chip (cchippytime)\'s Phobos',
- 'Seb (cmdrhonky)\'s Phobos',
- 'Pitou (atomicpitou)\'s Phobos',
- 'Justice (justice-acolyte)\'s Phobos',
- 'Nat (docboredom)\'s Phobos',
- 'Nat (docboredom)\'s SLB Phobos',
- 'Rose (roseblazing)\'s Phobos',
- 'Ari (blookangaroo)\'s Phobos',
- 'Ren (pollitoesbonito)\'s Phobos',
- 'Ren (pollitoesbonito)\'s SLB Phobos',
-  'gay_chameleon\'s Phobos'
-];
-
- up.innerHTML = "Click on the button to get"
-   + " your random phobos fusion"
-   + ".<br><br>";
-
-function random(mn, mx) {
- return Math.random() * (mx - mn) + mn;
-}
-
-function phob_fuser() {
-  phoboyOne = (Math.floor(random(1, 16)) - 1);
-  phoboyTwo = (Math.floor(random(1, 16)) - 1);
-  if (phoboyOne === phoboyTwo) {
-    if (phoboyTwo != 15) {
-      phoboyTwo = (phoboyTwo + 1);
-    }
-    else phoboyTwo = (phoboyTwo - 1);
-  }
-  down.innerHTML =  phob_arr[phoboyOne] + "<br>+<br>" + phob_arr[phoboyTwo];
-}
-    </script>
+  <script ></script>
  </body>
 </html>

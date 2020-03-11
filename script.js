@@ -1,27 +1,31 @@
-var up = document.getElementById('phob_UP');
+var desc = document.getElementById('fuser_subtitle');
 
 var down = document.getElementById('phob_DOWN');
 
 var phob_arr = [
- 'Katie (Katiemonz)\'s Phobos',
- 'GZ (GZ-Missfit)\'s Phobos',
- 'Puff (dragonpuff17)\'s Phobos',
- 'Jade (pure_trashcan)\'s Phobos',
- 'Finch (finchart)\'s Phobos',
- 'Chip (cchippytime)\'s Phobos',
- 'Seb (cmdrhonky)\'s Phobos',
- 'Pitou (atomicpitou)\'s Phobos',
- 'Justice (justice-acolyte)\'s Phobos',
- 'Nat (docboredom)\'s Phobos',
- 'Nat (docboredom)\'s SLB Phobos',
- 'Rose (roseblazing)\'s Phobos',
- 'Ari (blookangaroo)\'s Phobos',
- 'Ren (pollitoesbonito)\'s Phobos',
- 'Ren (pollitoesbonito)\'s SLB Phobos',
+  'Katie (Katiemonz)\'s Phobos',
+  'GZ (GZ-Missfit)\'s Phobos',
+  'Puff (dragonpuff17)\'s Phobos',
+  'Jade (pure_trashcan)\'s Phobos',
+  'Finch (finchart)\'s Phobos',
+  'Chip (cchippytime)\'s Phobos',
+  'Seb (cmdrhonky)\'s Phobos',
+  'Pitou (atomicpitou)\'s Phobos',
+  'Justice (justice-acolyte)\'s Phobos',
+  'Nat (docboredom)\'s Phobos',
+  'Nat (docboredom)\'s SLB Phobos',
+  'Rose (roseblazing)\'s Phobos',
+  'Ari (blookangaroo)\'s Phobos',
+  'Ren (pollitoesbonito)\'s Phobos',
+  'Ren (pollitoesbonito)\'s SLB Phobos',
   'gay_chameleon\'s Phobos'
 ];
 
- up.innerHTML = "Click on the button to get"
+var phobArt_arr = [
+  'Katiemonz'
+]
+
+ desc.innerHTML = "Click on the button to get"
    + " your random phobos fusion"
    + ".<br><br>";
 
